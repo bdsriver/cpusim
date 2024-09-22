@@ -1,0 +1,1363 @@
+time: 1	memory size: 40
+Resources:
+r7:	servicing none
+
+r8:	servicing none
+
+r3:	servicing none
+
+r6:	servicing none
+
+r2:	servicing none
+
+r1:	servicing none
+
+Processes:
+
+p1:	state: processing
+in memory from 0 to 3
+requests:
+1: not yet occurred
+2: not yet occurred
+
+p2:	state: newArrival
+requests:
+3: not yet occurred
+4: not yet occurred
+5: not yet occurred
+
+p3:	state: newArrival
+requests:
+6: not yet occurred
+7: not yet occurred
+
+p4:	state: newArrival
+requests:
+
+p5:	state: ready
+requests:
+
+p6:	state: ready
+requests:
+
+p7:	state: newArrival
+requests:
+8: not yet occurred
+9: not yet occurred
+
+time: 2	memory size: 40
+Resources:
+r7:	servicing none
+
+r8:	servicing none
+
+r3:	servicing none
+
+r6:	servicing none
+
+r2:	servicing none
+
+r1:	servicing none
+
+Processes:
+
+p1:	state: processing
+in memory from 0 to 3
+requests:
+1: not yet occurred
+2: not yet occurred
+
+p2:	state: processing
+in memory from 3 to 7
+requests:
+3: not yet occurred
+4: not yet occurred
+5: not yet occurred
+
+p3:	state: newArrival
+requests:
+6: not yet occurred
+7: not yet occurred
+
+p4:	state: newArrival
+requests:
+
+p5:	state: ready
+requests:
+
+p6:	state: ready
+requests:
+
+p7:	state: newArrival
+requests:
+8: not yet occurred
+9: not yet occurred
+
+time: 3	memory size: 40
+Resources:
+r7:	servicing none
+
+r8:	servicing none
+
+r3:	servicing none
+
+r6:	servicing none
+
+r2:	servicing none
+
+r1:	servicing none
+
+Processes:
+
+p1:	state: processing
+in memory from 0 to 3
+requests:
+1: not yet occurred
+2: not yet occurred
+
+p2:	state: processing
+in memory from 3 to 7
+requests:
+3: not yet occurred
+4: not yet occurred
+5: not yet occurred
+
+p3:	state: newArrival
+requests:
+6: not yet occurred
+7: not yet occurred
+
+p4:	state: newArrival
+requests:
+
+p5:	state: done
+requests:
+
+p6:	state: ready
+requests:
+
+p7:	state: newArrival
+requests:
+8: not yet occurred
+9: not yet occurred
+
+time: 4	memory size: 40
+Resources:
+r7:	servicing none
+
+r8:	servicing none
+
+r3:	servicing none
+
+r6:	servicing none
+
+r2:	servicing none
+
+r1:	servicing none
+
+Processes:
+
+p1:	state: processing
+in memory from 0 to 3
+requests:
+1: not yet occurred
+2: not yet occurred
+
+p2:	state: processing
+in memory from 3 to 7
+requests:
+3: not yet occurred
+4: not yet occurred
+5: not yet occurred
+
+p3:	state: newArrival
+requests:
+6: not yet occurred
+7: not yet occurred
+
+p4:	state: newArrival
+requests:
+
+p5:	state: done
+requests:
+
+p6:	state: processing
+in memory from 7 to 15
+requests:
+
+p7:	state: newArrival
+requests:
+8: not yet occurred
+9: not yet occurred
+
+time: 5	memory size: 40
+Resources:
+r7:	servicing none
+
+r8:	servicing none
+
+r3:	servicing request 3
+
+r6:	servicing none
+
+r2:	servicing none
+
+r1:	servicing none
+
+Processes:
+
+p1:	state: processing
+in memory from 0 to 3
+requests:
+1: not yet occurred
+2: not yet occurred
+
+p2:	state: processing
+in memory from 3 to 7
+requests:
+3: in progress
+4: not yet occurred
+5: not yet occurred
+
+p3:	state: newArrival
+requests:
+6: not yet occurred
+7: not yet occurred
+
+p4:	state: newArrival
+requests:
+
+p5:	state: done
+requests:
+
+p6:	state: processing
+in memory from 7 to 15
+requests:
+
+p7:	state: newArrival
+requests:
+8: not yet occurred
+9: not yet occurred
+
+time: 6	memory size: 40
+Resources:
+r7:	servicing request 1
+
+r8:	servicing none
+
+r3:	servicing request 3
+
+r6:	servicing none
+
+r2:	servicing none
+
+r1:	servicing none
+
+Processes:
+
+p1:	state: processing
+in memory from 0 to 3
+requests:
+1: in progress
+2: not yet occurred
+
+p2:	state: processing
+in memory from 3 to 7
+requests:
+3: in progress
+4: not yet occurred
+5: not yet occurred
+
+p3:	state: newArrival
+requests:
+6: not yet occurred
+7: not yet occurred
+
+p4:	state: newArrival
+requests:
+
+p5:	state: done
+requests:
+
+p6:	state: processing
+in memory from 7 to 15
+requests:
+
+p7:	state: newArrival
+requests:
+8: not yet occurred
+9: not yet occurred
+
+time: 7	memory size: 40
+Resources:
+r7:	servicing request 1
+
+r8:	servicing none
+
+r3:	servicing request 3
+
+r6:	servicing none
+
+r2:	servicing none
+
+r1:	servicing none
+
+Processes:
+
+p1:	state: processing
+in memory from 0 to 3
+requests:
+1: in progress
+2: not yet occurred
+
+p2:	state: processing
+in memory from 3 to 7
+requests:
+3: in progress
+4: not yet occurred
+5: not yet occurred
+
+p3:	state: processing
+in memory from 15 to 19
+requests:
+6: not yet occurred
+7: not yet occurred
+
+p4:	state: newArrival
+requests:
+
+p5:	state: done
+requests:
+
+p6:	state: done
+requests:
+
+p7:	state: newArrival
+requests:
+8: not yet occurred
+9: not yet occurred
+
+time: 8	memory size: 40
+Resources:
+r7:	servicing request 1
+
+r8:	servicing request 7
+
+r3:	servicing none
+
+r6:	servicing none
+
+r2:	servicing none
+
+r1:	servicing none
+
+Processes:
+
+p1:	state: processing
+in memory from 0 to 3
+requests:
+1: in progress
+2: not yet occurred
+
+p2:	state: processing
+in memory from 3 to 7
+requests:
+3: finished
+4: not yet occurred
+5: not yet occurred
+
+p3:	state: processing
+in memory from 15 to 19
+requests:
+6: not yet occurred
+7: in progress
+
+p4:	state: newArrival
+requests:
+
+p5:	state: done
+requests:
+
+p6:	state: done
+requests:
+
+p7:	state: processing
+in memory from 7 to 13
+requests:
+8: not yet occurred
+9: not yet occurred
+
+time: 9	memory size: 40
+Resources:
+r7:	servicing request 1
+
+r8:	servicing request 7
+
+r3:	servicing none
+
+r6:	servicing none
+
+r2:	servicing none
+
+r1:	servicing none
+
+Processes:
+
+p1:	state: blocked
+in memory from 0 to 3
+requests:
+1: in progress
+2: not yet occurred
+
+p2:	state: blocked
+in memory from 3 to 7
+requests:
+3: finished
+4: not yet occurred
+5: not yet occurred
+
+p3:	state: processing
+in memory from 15 to 19
+requests:
+6: not yet occurred
+7: in progress
+
+p4:	state: done
+requests:
+
+p5:	state: done
+requests:
+
+p6:	state: done
+requests:
+
+p7:	state: processing
+in memory from 7 to 13
+requests:
+8: not yet occurred
+9: not yet occurred
+
+time: 10	memory size: 40
+Resources:
+r7:	servicing request 1
+
+r8:	servicing request 7
+
+r3:	servicing none
+
+r6:	servicing none
+
+r2:	servicing none
+
+r1:	servicing request 9
+
+Processes:
+
+p1:	state: blocked
+in memory from 0 to 3
+requests:
+1: in progress
+2: not yet occurred
+
+p2:	state: blocked
+in memory from 3 to 7
+requests:
+3: finished
+4: not yet occurred
+5: not yet occurred
+
+p3:	state: processing
+in memory from 15 to 19
+requests:
+6: not yet occurred
+7: in progress
+
+p4:	state: done
+requests:
+
+p5:	state: done
+requests:
+
+p6:	state: done
+requests:
+
+p7:	state: processing
+in memory from 7 to 13
+requests:
+8: not yet occurred
+9: in progress
+
+time: 11	memory size: 40
+Resources:
+r7:	servicing request 1
+
+r8:	servicing request 7
+
+r3:	servicing none
+
+r6:	servicing none
+
+r2:	servicing none
+
+r1:	servicing none
+
+Processes:
+
+p1:	state: blocked
+in memory from 0 to 3
+requests:
+1: in progress
+2: not yet occurred
+
+p2:	state: blocked
+in memory from 3 to 7
+requests:
+3: finished
+4: not yet occurred
+5: not yet occurred
+
+p3:	state: processing
+in memory from 15 to 19
+requests:
+6: not yet occurred
+7: in progress
+
+p4:	state: done
+requests:
+
+p5:	state: done
+requests:
+
+p6:	state: done
+requests:
+
+p7:	state: processing
+in memory from 7 to 13
+requests:
+8: not yet occurred
+9: finished
+
+time: 12	memory size: 40
+Resources:
+r7:	servicing request 4
+
+r8:	servicing request 7
+
+r3:	servicing none
+
+r6:	servicing none
+
+r2:	servicing none
+
+r1:	servicing none
+
+Processes:
+
+p1:	state: blocked
+in memory from 0 to 3
+requests:
+1: finished
+2: not yet occurred
+
+p2:	state: blocked
+in memory from 3 to 7
+requests:
+3: finished
+4: in progress
+5: not yet occurred
+
+p3:	state: processing
+in memory from 15 to 19
+requests:
+6: not yet occurred
+7: in progress
+
+p4:	state: done
+requests:
+
+p5:	state: done
+requests:
+
+p6:	state: done
+requests:
+
+p7:	state: processing
+in memory from 7 to 13
+requests:
+8: not yet occurred
+9: finished
+
+time: 13	memory size: 40
+Resources:
+r7:	servicing request 4
+
+r8:	servicing request 7
+
+r3:	servicing request 8
+
+r6:	servicing none
+
+r2:	servicing none
+
+r1:	servicing none
+
+Processes:
+
+p1:	state: blocked
+in memory from 0 to 3
+requests:
+1: finished
+2: not yet occurred
+
+p2:	state: blocked
+in memory from 3 to 7
+requests:
+3: finished
+4: in progress
+5: not yet occurred
+
+p3:	state: processing
+in memory from 15 to 19
+requests:
+6: not yet occurred
+7: in progress
+
+p4:	state: done
+requests:
+
+p5:	state: done
+requests:
+
+p6:	state: done
+requests:
+
+p7:	state: processing
+in memory from 7 to 13
+requests:
+8: in progress
+9: finished
+
+time: 14	memory size: 40
+Resources:
+r7:	servicing request 4
+
+r8:	servicing request 7
+
+r3:	servicing request 8
+
+r6:	servicing none
+
+r2:	servicing request 6
+
+r1:	servicing none
+
+Processes:
+
+p1:	state: blocked
+in memory from 0 to 3
+requests:
+1: finished
+2: not yet occurred
+
+p2:	state: blocked
+in memory from 3 to 7
+requests:
+3: finished
+4: in progress
+5: not yet occurred
+
+p3:	state: processing
+in memory from 15 to 19
+requests:
+6: in progress
+7: in progress
+
+p4:	state: done
+requests:
+
+p5:	state: done
+requests:
+
+p6:	state: done
+requests:
+
+p7:	state: processing
+in memory from 7 to 13
+requests:
+8: in progress
+9: finished
+
+time: 15	memory size: 40
+Resources:
+r7:	servicing request 4
+
+r8:	servicing request 7
+
+r3:	servicing request 8
+
+r6:	servicing none
+
+r2:	servicing request 6
+
+r1:	servicing none
+
+Processes:
+
+p1:	state: blocked
+in memory from 0 to 3
+requests:
+1: finished
+2: not yet occurred
+
+p2:	state: blocked
+in memory from 3 to 7
+requests:
+3: finished
+4: in progress
+5: not yet occurred
+
+p3:	state: processing
+in memory from 15 to 19
+requests:
+6: in progress
+7: in progress
+
+p4:	state: done
+requests:
+
+p5:	state: done
+requests:
+
+p6:	state: done
+requests:
+
+p7:	state: processing
+in memory from 7 to 13
+requests:
+8: in progress
+9: finished
+
+time: 16	memory size: 40
+Resources:
+r7:	servicing request 4
+
+r8:	servicing none
+
+r3:	servicing request 8
+
+r6:	servicing none
+
+r2:	servicing request 6
+
+r1:	servicing none
+
+Processes:
+
+p1:	state: blocked
+in memory from 0 to 3
+requests:
+1: finished
+2: not yet occurred
+
+p2:	state: blocked
+in memory from 3 to 7
+requests:
+3: finished
+4: in progress
+5: not yet occurred
+
+p3:	state: processing
+in memory from 15 to 19
+requests:
+6: in progress
+7: finished
+
+p4:	state: done
+requests:
+
+p5:	state: done
+requests:
+
+p6:	state: done
+requests:
+
+p7:	state: processing
+in memory from 7 to 13
+requests:
+8: in progress
+9: finished
+
+time: 17	memory size: 40
+Resources:
+r7:	servicing request 4
+
+r8:	servicing request 2
+
+r3:	servicing none
+
+r6:	servicing none
+
+r2:	servicing request 6
+
+r1:	servicing none
+
+Processes:
+
+p1:	state: blocked
+in memory from 0 to 3
+requests:
+1: finished
+2: in progress
+
+p2:	state: blocked
+in memory from 3 to 7
+requests:
+3: finished
+4: in progress
+5: not yet occurred
+
+p3:	state: processing
+in memory from 15 to 19
+requests:
+6: in progress
+7: finished
+
+p4:	state: done
+requests:
+
+p5:	state: done
+requests:
+
+p6:	state: done
+requests:
+
+p7:	state: done
+requests:
+8: finished
+9: finished
+
+time: 18	memory size: 40
+Resources:
+r7:	servicing request 4
+
+r8:	servicing request 2
+
+r3:	servicing none
+
+r6:	servicing none
+
+r2:	servicing request 6
+
+r1:	servicing none
+
+Processes:
+
+p1:	state: blocked
+in memory from 0 to 3
+requests:
+1: finished
+2: in progress
+
+p2:	state: blocked
+in memory from 3 to 7
+requests:
+3: finished
+4: in progress
+5: not yet occurred
+
+p3:	state: processing
+in memory from 15 to 19
+requests:
+6: in progress
+7: finished
+
+p4:	state: done
+requests:
+
+p5:	state: done
+requests:
+
+p6:	state: done
+requests:
+
+p7:	state: done
+requests:
+8: finished
+9: finished
+
+time: 19	memory size: 40
+Resources:
+r7:	servicing none
+
+r8:	servicing request 2
+
+r3:	servicing none
+
+r6:	servicing none
+
+r2:	servicing request 6
+
+r1:	servicing none
+
+Processes:
+
+p1:	state: blocked
+in memory from 0 to 3
+requests:
+1: finished
+2: in progress
+
+p2:	state: blocked
+in memory from 3 to 7
+requests:
+3: finished
+4: finished
+5: not yet occurred
+
+p3:	state: processing
+in memory from 15 to 19
+requests:
+6: in progress
+7: finished
+
+p4:	state: done
+requests:
+
+p5:	state: done
+requests:
+
+p6:	state: done
+requests:
+
+p7:	state: done
+requests:
+8: finished
+9: finished
+
+time: 20	memory size: 40
+Resources:
+r7:	servicing none
+
+r8:	servicing none
+
+r3:	servicing none
+
+r6:	servicing none
+
+r2:	servicing none
+
+r1:	servicing none
+
+Processes:
+
+p1:	state: blocked
+in memory from 0 to 3
+requests:
+1: finished
+2: in progress
+
+p2:	state: ready
+requests:
+3: finished
+4: finished
+5: not yet occurred
+
+p3:	state: done
+requests:
+6: finished
+7: finished
+
+p4:	state: done
+requests:
+
+p5:	state: done
+requests:
+
+p6:	state: done
+requests:
+
+p7:	state: done
+requests:
+8: finished
+9: finished
+
+time: 21	memory size: 40
+Resources:
+r7:	servicing none
+
+r8:	servicing none
+
+r3:	servicing none
+
+r6:	servicing none
+
+r2:	servicing none
+
+r1:	servicing none
+
+Processes:
+
+p1:	state: blocked
+in memory from 0 to 3
+requests:
+1: finished
+2: in progress
+
+p2:	state: processing
+in memory from 3 to 7
+requests:
+3: finished
+4: finished
+5: not yet occurred
+
+p3:	state: done
+requests:
+6: finished
+7: finished
+
+p4:	state: done
+requests:
+
+p5:	state: done
+requests:
+
+p6:	state: done
+requests:
+
+p7:	state: done
+requests:
+8: finished
+9: finished
+
+time: 22	memory size: 40
+Resources:
+r7:	servicing none
+
+r8:	servicing none
+
+r3:	servicing none
+
+r6:	servicing none
+
+r2:	servicing none
+
+r1:	servicing none
+
+Processes:
+
+p1:	state: blocked
+in memory from 0 to 3
+requests:
+1: finished
+2: in progress
+
+p2:	state: processing
+in memory from 3 to 7
+requests:
+3: finished
+4: finished
+5: not yet occurred
+
+p3:	state: done
+requests:
+6: finished
+7: finished
+
+p4:	state: done
+requests:
+
+p5:	state: done
+requests:
+
+p6:	state: done
+requests:
+
+p7:	state: done
+requests:
+8: finished
+9: finished
+
+time: 23	memory size: 40
+Resources:
+r7:	servicing none
+
+r8:	servicing none
+
+r3:	servicing none
+
+r6:	servicing request 5
+
+r2:	servicing none
+
+r1:	servicing none
+
+Processes:
+
+p1:	state: blocked
+in memory from 0 to 3
+requests:
+1: finished
+2: in progress
+
+p2:	state: processing
+in memory from 3 to 7
+requests:
+3: finished
+4: finished
+5: in progress
+
+p3:	state: done
+requests:
+6: finished
+7: finished
+
+p4:	state: done
+requests:
+
+p5:	state: done
+requests:
+
+p6:	state: done
+requests:
+
+p7:	state: done
+requests:
+8: finished
+9: finished
+
+time: 24	memory size: 40
+Resources:
+r7:	servicing none
+
+r8:	servicing none
+
+r3:	servicing none
+
+r6:	servicing request 5
+
+r2:	servicing none
+
+r1:	servicing none
+
+Processes:
+
+p1:	state: blocked
+in memory from 0 to 3
+requests:
+1: finished
+2: in progress
+
+p2:	state: processing
+in memory from 3 to 7
+requests:
+3: finished
+4: finished
+5: in progress
+
+p3:	state: done
+requests:
+6: finished
+7: finished
+
+p4:	state: done
+requests:
+
+p5:	state: done
+requests:
+
+p6:	state: done
+requests:
+
+p7:	state: done
+requests:
+8: finished
+9: finished
+
+time: 25	memory size: 40
+Resources:
+r7:	servicing none
+
+r8:	servicing none
+
+r3:	servicing none
+
+r6:	servicing request 5
+
+r2:	servicing none
+
+r1:	servicing none
+
+Processes:
+
+p1:	state: blocked
+in memory from 0 to 3
+requests:
+1: finished
+2: in progress
+
+p2:	state: processing
+in memory from 3 to 7
+requests:
+3: finished
+4: finished
+5: in progress
+
+p3:	state: done
+requests:
+6: finished
+7: finished
+
+p4:	state: done
+requests:
+
+p5:	state: done
+requests:
+
+p6:	state: done
+requests:
+
+p7:	state: done
+requests:
+8: finished
+9: finished
+
+time: 26	memory size: 40
+Resources:
+r7:	servicing none
+
+r8:	servicing none
+
+r3:	servicing none
+
+r6:	servicing request 5
+
+r2:	servicing none
+
+r1:	servicing none
+
+Processes:
+
+p1:	state: done
+requests:
+1: finished
+2: finished
+
+p2:	state: processing
+in memory from 3 to 7
+requests:
+3: finished
+4: finished
+5: in progress
+
+p3:	state: done
+requests:
+6: finished
+7: finished
+
+p4:	state: done
+requests:
+
+p5:	state: done
+requests:
+
+p6:	state: done
+requests:
+
+p7:	state: done
+requests:
+8: finished
+9: finished
+
+time: 27	memory size: 40
+Resources:
+r7:	servicing none
+
+r8:	servicing none
+
+r3:	servicing none
+
+r6:	servicing request 5
+
+r2:	servicing none
+
+r1:	servicing none
+
+Processes:
+
+p1:	state: done
+requests:
+1: finished
+2: finished
+
+p2:	state: processing
+in memory from 3 to 7
+requests:
+3: finished
+4: finished
+5: in progress
+
+p3:	state: done
+requests:
+6: finished
+7: finished
+
+p4:	state: done
+requests:
+
+p5:	state: done
+requests:
+
+p6:	state: done
+requests:
+
+p7:	state: done
+requests:
+8: finished
+9: finished
+
+time: 28	memory size: 40
+Resources:
+r7:	servicing none
+
+r8:	servicing none
+
+r3:	servicing none
+
+r6:	servicing none
+
+r2:	servicing none
+
+r1:	servicing none
+
+Processes:
+
+p1:	state: done
+requests:
+1: finished
+2: finished
+
+p2:	state: done
+requests:
+3: finished
+4: finished
+5: finished
+
+p3:	state: done
+requests:
+6: finished
+7: finished
+
+p4:	state: done
+requests:
+
+p5:	state: done
+requests:
+
+p6:	state: done
+requests:
+
+p7:	state: done
+requests:
+8: finished
+9: finished
+
