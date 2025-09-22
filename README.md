@@ -1,5 +1,5 @@
 # cpusim
-simulates a an operating system with tasks, processes, memory and resources to manage
+simulates an operating system with tasks, processes, memory and resources to manage
 
 input:
 There can be 0 or more resource requests for each process. Put x after the last request
